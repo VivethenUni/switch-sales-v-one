@@ -1,0 +1,24 @@
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20%;
+    -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}
+
+.box {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+

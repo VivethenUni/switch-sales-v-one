@@ -1,0 +1,173 @@
+.App {
+    text-align: center;
+    background-color: rgb(255, 214, 214);
+  
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    border-color: #a9a9a9;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    /*float: left;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #282828;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+    border-style:solid;
+    border-color: #c7c7c7;
+    background-color: #e0e0e0;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #adc8ff;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #83a0db;
+    color: white;
+    background-image: url("./images/Logo-V2.png");
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+  }
+  
+  .topnav a.active:hover {
+    background-color: #5a84da;
+    color: black;
+  }
+  
+  .topnav a.book-button {
+    background-color: #5e7485;
+    color: white;
+  }
+  
+  .topnav a.book-button:hover {
+    background-color: #a0c2de;
+    color: black;
+  }
+  
+  .h-one {
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 7vw;
+    text-align: center;
+    color: rgb(141, 0, 87);
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .h-two {
+    padding: 15px;
+    font-size: 4vw;
+    text-align: center;
+    color: rgb(141, 0, 87);
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .h-three {
+    padding: 15px;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #4b4b4b;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .h-four {
+    padding: 10px;
+    font-size: 2.3vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .h-six {
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
+  
+  .para {
+    padding: 5px 15px 5px 15px;
+    text-align: left;
+    color: #4b4b4b;
+    font-weight: bold;
+    font-size: 1.3vw;
+  }
+
+  .button1 {
+    border-style: hidden;
+    background-color: transparent;
+    float: right;
+    padding-left: 5%;
+  }
+
+  .input1 {
+    padding: 15%;
+  }
+
+  .slider-parent{
+    position:relative;
+  }
+
+  .stepper {
+    color: #eee;
+    padding-bottom: 15px;
+    width: 98%;
+    margin: auto;
+  }
+
+  .confirm {
+    text-align: left;
+  }
+  
+  /*
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  */
